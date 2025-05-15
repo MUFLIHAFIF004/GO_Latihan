@@ -19,6 +19,11 @@ func main() {
 	//============OUTPUTAN===============
 	// fmt.Println("Hello, nama saya", nama, ", umur saya", umur, ", saya tinggal di", kota)
 	//===============================
+
+	//===============================
+	// 🧪 Type Data !!
+	// Mmebuat sebuah teks beserta typedatannya
+	//============OUTPUTAN===============
 	var nama string = "Afif"
 	var umur int = 21
 	var tinggi float64 = 170.5
