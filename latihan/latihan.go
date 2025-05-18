@@ -40,9 +40,17 @@ func main() {
 	// 🧪 Array!!
 	// Membuat array di golang
 	//============OUTPUTAN===============
-	var angka [3]int = [3]int{10,20,30}
-	 fmt.Println(angka)
-	 fmt.Println(angka[1])
-		
-	
+	// var angka [3]int = [3]int{10,20,30}
+	//  fmt.Println(angka)
+	//  fmt.Println(angka[1])
+	//  fmt.Println(len(angka))
+	//===============================
+
+	//===============================
+	// 🧪 Slice!
+	// Membuat slice di golang (penambhana isi dalam array
+	//============OUTPUTAN===============
+	buah := []string{"apel", "jeruk", "mangga"}
+	buah = append(buah, "pisang")
+	fmt.Println(buah)
 }
