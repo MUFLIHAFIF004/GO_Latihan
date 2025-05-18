@@ -35,7 +35,6 @@ func main() {
 	// fmt.Println("Status Mahasiswa:", mahasiswa)
 	//===============================
 
-
 	//===============================
 	// 🧪 Array!!
 	// Membuat array di golang
@@ -50,7 +49,13 @@ func main() {
 	// 🧪 Slice!
 	// Membuat slice di golang (penambhana isi dalam array
 	//============OUTPUTAN===============
-	buah := []string{"apel", "jeruk", "mangga"}
-	buah = append(buah, "pisang")
-	fmt.Println(buah)
+	// buah := []string{"apel", "jeruk", "mangga"}
+	// buah = append(buah, "pisang")
+	// fmt.Println(buah)
+	//===============================
+	var angka [3]int = [3]int{11, 200, 31}
+	fmt.Println("isi array ", angka)
+	fmt.Println("elemen pertama", angka[0])
+	fmt.Println("jumlah elmen", len(angka))
+
 }
