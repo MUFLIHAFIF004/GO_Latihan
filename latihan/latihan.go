@@ -24,14 +24,25 @@ func main() {
 	// 🧪 Type Data !!
 	// Mmebuat sebuah teks beserta typedatannya
 	//============OUTPUTAN===============
-	var nama string = "Afif"
-	var umur int = 21
-	var tinggi float64 = 170.5
-	var mahasiswa bool = true
+	// var nama string = "Afif"
+	// var umur int = 21
+	// var tinggi float64 = 170.5
+	// var mahasiswa bool = true
 
-	fmt.Println("Nama saya:", nama)
-	fmt.Println("Umur saya:", umur)
-	fmt.Println("Tinggi badan:", tinggi)
-	fmt.Println("Status Mahasiswa:", mahasiswa)
+	// fmt.Println("Nama saya:", nama)
+	// fmt.Println("Umur saya:", umur)
+	// fmt.Println("Tinggi badan:", tinggi)
+	// fmt.Println("Status Mahasiswa:", mahasiswa)
+	//===============================
 
+
+	//===============================
+	// 🧪 Array!!
+	// Membuat array di golang
+	//============OUTPUTAN===============
+	var angka [3]int = [3]int{10,20,30}
+	 fmt.Println(angka)
+	 fmt.Println(angka[1])
+		
+	
 }
