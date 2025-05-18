@@ -9,7 +9,7 @@ func main() {
 	//============OUTPUTAN===============
 	// fmt.Printf("Hello, Afif!\nD4 Teknik Informatika\n")
 	// ===============================
-	
+
 	//===============================
 	// 🧪 Variabel !!
 	// Membuat variabel dengan tipe data string, int, dan float
