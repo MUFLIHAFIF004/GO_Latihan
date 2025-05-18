@@ -53,9 +53,20 @@ func main() {
 	// buah = append(buah, "pisang")
 	// fmt.Println(buah)
 	//===============================
-	var angka [3]int = [3]int{11, 200, 31}
-	fmt.Println("isi array ", angka)
-	fmt.Println("elemen pertama", angka[0])
-	fmt.Println("jumlah elmen", len(angka))
+	// var angka [3]int = [3]int{11, 200, 31}
+	// fmt.Println("isi array ", angka)
+	// fmt.Println("elemen pertama", angka[0])
+	// fmt.Println("jumlah elmen", len(angka))
+	//===============================
+
+	//===============================
+	// 🧪 Map!!
+	// Membuat map di golang
+	//============OUTPUTAN===============
+	person := map[string]string{
+		"nama":    "Afif",
+		"alamat":  "Bandung",
+	}
+	fmt.Println(person["nama"])
 
 }
