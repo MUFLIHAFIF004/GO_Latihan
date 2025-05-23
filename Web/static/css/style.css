@@ -30,7 +30,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url("/static/img/Golangbg.png");
+  background-image: url("/static/img/Golangbg1.png");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -67,4 +67,52 @@ body {
 .content ul {
   list-style-type: square;
   padding-left: 20px;
+}
+.visi-misi-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.visi-misi-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.85); /* Tabel hitam */
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 1000px;
+  gap: 30px;
+}
+
+.visi, .misi {
+  flex: 1;
+}
+
+.visi h3, .misi h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.misi ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+
+    @media screen and (max-width: 768px) {
+    .visi-misi-box {
+    flex-direction: column;
+    }
+  }
 }
