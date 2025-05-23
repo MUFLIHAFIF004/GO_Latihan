@@ -10,7 +10,11 @@ func main() {
 	app.Static("/static", "./static")
 
 	app.Get("/", func(c *fiber.Ctx) error {
-    return c.SendFile("./views/index.html")
+		return c.SendFile("./views/index.html")
+	})
+
+	app.Get("/golang", func(c *fiber.Ctx) error {
+		return c.SendFile("./views/golang.html")
 	})
 	app.Listen(":3000")
 }
